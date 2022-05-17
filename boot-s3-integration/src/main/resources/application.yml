@@ -1,0 +1,25 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAQID6KTNTTYJQS62V
+      secret-key: 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
+    region:   
+      static: ap-south-1  
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: jobiakbucket
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+server:
+  port: 8090
